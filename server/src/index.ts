@@ -41,7 +41,8 @@ io.on("connection", (socket) => {
 
       io.emit("userJoined",username);
 
-      io.emit("messageHistoty", messages)
+      io.emit("messageHistory", messages) 
+
   })
 
   // if they connected then showing messages
